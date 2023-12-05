@@ -15,4 +15,4 @@ Once the vectorization is complteted, we trained the logistic regression as show
 
 <img width="282" alt="image" src="https://github.com/twdavidkuo/Amazon-Review-Analysis-with-Pyspark/assets/52212633/3a2d29ca-60f2-44d7-937f-4ec3bc161cda">
 
-The final trained model is saved as a parquet file, and you can find it as `logistic_regression_model` in the repo.
+The final trained model is saved as a parquet file, and you can find it as `logistic_regression_model_parquet` in the repo. To access the model, you will have to unzip it and read it as a parquet file.
