@@ -7,5 +7,10 @@ The total size of the dataset is around 50 gb after decompression, and the data 
 
 Most of the data analysis, preprocessing, and model development are completed in PySpark, and the `review_preprocessing.py` file contains some basic functions to transform the data type, tokenize, and vectorize the textual data.
 
-To run the code, you will have to change the directory to your personal computer or AWS, Azure, GCP bucket path.
-The execution summary can be found in the summary.pdf file.
+The following picture summarize the pipeline of tokenization and vectorization:
+
+<img width="848" alt="image" src="https://github.com/twdavidkuo/Amazon-Review-Analysis-with-Pyspark/assets/52212633/9be85f00-227c-4e6e-a6d6-ab22b286dd18">
+
+Once the vectorization is complteted, we trained the logistic regression as shown in the `final_data_processing.ipynb`, and the final training result is summarized as below:
+
+<img width="282" alt="image" src="https://github.com/twdavidkuo/Amazon-Review-Analysis-with-Pyspark/assets/52212633/3a2d29ca-60f2-44d7-937f-4ec3bc161cda">
